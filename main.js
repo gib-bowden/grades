@@ -26,11 +26,11 @@ var grades = scores.map((grade) => {
 })
 
 
-var maxScore = Array.max = (arr) => {
+var maxScore = (arr) => {
 	return Math.max.apply(Math, arr);
 };
 
-var minScore = Array.min = (arr) => {
+var minScore = (arr) => {
 	return Math.min.apply(Math, arr);
 };
 
